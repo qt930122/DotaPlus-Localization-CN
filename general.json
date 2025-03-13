@@ -50,12 +50,12 @@
       "restartSteam": "更新并重启Steam"
     },
     "missingGsiFlag": {
-      "title": "请从Steam或安全桌面快捷方式启动Dota 2",
-      "description": "Dota 2的启动方式不正确。请从Steam或DotaPlus启动。如果使用桌面图标，请重新在DotaPlus设置-工具里生成安全快捷方式。"
+      "title": "请从Steam或桌面快捷方式启动Dota 2",
+      "description": "Dota 2的启动方式不正确。请从Steam或DotaPlus启动。如果使用桌面图标，请重新在DotaPlus中设置-生成安全快捷方式。"
     },
     "oldOverwolfVersion": {
       "title": "Overwolf版本过旧",
-      "description": "请更新Overwolf至最新版本使用DotaPlus。若问题持续，请尝试卸载并重装，或在Discord寻求帮助。"
+      "description": "请更新Overwolf至最新版本再使用DotaPlus。若问题持续，请尝试卸载并重装，或在Discord寻求帮助。"
     }
   },
   "ads": "支持我 - 去广告等更多功能",
