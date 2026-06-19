@@ -55,6 +55,10 @@
       "repair": "修复 Steam 设置",
       "repairFailed": "修复失败。请带上最新的 DotaPlus 日志联系支持。"
     },
+    "steamAccountDetection": {
+      "title": "正在检测活动 Steam 账号",
+      "restartSteam": "重启 Steam"
+    },
     "missingGsiFlag": {
       "title": "请从Steam或安全桌面快捷方式启动Dota 2",
       "description": "Dota 2的启动方式不正确。请从Steam或DotaPlus启动。如果使用桌面图标，请重新在DotaPlus设置-工具里生成安全快捷方式。"

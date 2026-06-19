@@ -176,17 +176,6 @@
       "excludeTooltip": "若勾选，则只返回不符合此条件的对局。"
     }
   },
-  "conduct": {
-    "filter": {
-      "real": "行为总结",
-      "preview": "行为预览"
-    },
-    "header": {
-      "buttonLabel": "打开行为总结",
-      "tooltip": "打开行为总结",
-      "tooltipUnread": "新的行为总结已就绪。打开查看。"
-    }
-  },
   "realStats": {
     "winRanges": "胜场范围",
     "loseRanges": "败场范围",

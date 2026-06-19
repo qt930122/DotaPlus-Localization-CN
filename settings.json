@@ -171,9 +171,7 @@
     "enemyPlayers": "敌方玩家",
     "timeOfDay": "时间段",
     "pp": "PP",
-    "matchId": "比赛ID",
     "reports": "举报",
-    "conductSummary": "行为总结",
     "clear": "清除全部",
     "russian": {
       "period": "周期",
@@ -193,9 +191,7 @@
       "enemyPlayers": "敌方玩家",
       "timeOfDay": "时间段",
       "pp": "PP",
-      "matchId": "比赛ID",
-      "reports": "举报",
-      "conductSummary": "行为总结"
+      "reports": "举报"
     },
     "dayOfWeek": "星期几"
   },
@@ -203,7 +199,6 @@
     "title": "资料",
     "autoOpenMmrOnNew": "比赛结束后自动打开资料",
     "autoOpenReplayManagerOnNewReplay": "检测到新录像下载时打开录像",
-    "autoOpenConductSummaryOnNew": "新的行为总结就绪时自动打开",
     "onlyRankedStreak": "只统计天梯的连胜/连败",
     "shouldTrackMmr": "启用比赛与MMR追踪"
   },
