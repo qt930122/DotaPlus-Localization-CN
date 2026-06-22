@@ -255,6 +255,8 @@
     "progressWithGameTime": "{{phase}}，游戏时间 {{gameTime}}",
     "queued": "对局排队中",
     "notAvailable": "已过期/不可用",
+    "retryingLater": "录像暂未就绪。DotaPlus 会稍后重试。",
+    "noLongerAvailable": "Valve 已不再提供此录像。",
     "manualDownloadRequiredWithHint": "请先在 Dota 2 中下载此录像，然后打开“录像”进行处理。按住 CTRL 并点击可再次尝试通过 API 处理。",
     "manualDownloadReprocessReady": "已按住 CTRL——点击即可再次尝试通过 API 处理",
     "done": "处理完成",
