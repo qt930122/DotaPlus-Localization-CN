@@ -68,9 +68,9 @@
     "ignoreHighlightsTooltip": "忽略灰度显示的预选英雄。默认不忽略可自动判断配合。",
     "launchDota2OnStartup": "启动DotaPlus时自动开启Dota 2",
     "playNoteNotification": "遇到有备注的玩家时播放提示音",
-    "enableReportNotifications": "显示举报检测通知",
-    "autoCloseReportNotifications": "20秒后自动关闭举报检测通知",
-    "playReportNotificationSound": "举报检测通知播放声音",
+    "enableReportNotifications": "显示疑似举报通知",
+    "autoCloseReportNotifications": "20秒后自动关闭疑似举报通知",
+    "playReportNotificationSound": "疑似举报通知播放声音",
     "notificationVolume": "通知音量",
     "forceDualScreen": "强制第二显示器模式",
     "forceDualScreenTooltip": "默认仅有1个显示器时会禁用第二显示器模式；启用此选项可强制模式。",
@@ -171,7 +171,7 @@
     "enemyPlayers": "敌方玩家",
     "timeOfDay": "时间段",
     "pp": "PP",
-    "reports": "举报",
+    "reports": "举报活动",
     "clear": "清除全部",
     "russian": {
       "period": "周期",
@@ -191,7 +191,7 @@
       "enemyPlayers": "敌方玩家",
       "timeOfDay": "时间段",
       "pp": "PP",
-      "reports": "举报"
+      "reports": "举报活动"
     },
     "dayOfWeek": "星期几"
   },

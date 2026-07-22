@@ -47,7 +47,7 @@
     "towerDamage": "对建筑伤害",
     "awards": "奖励",
     "processMatch": "处理状态：赛后解析对局以获取PP和RealStats。",
-    "reports": "本场比赛中提交的游戏内举报。如果你被举报，单元格会显示最多两名举报者的英雄图标；如果你没有被举报，单元格会显示本场总举报数。悬停任意举报单元格可打开包含举报者、目标和类型的完整时间线。这些是游戏内举报，不是赛后举报。"
+    "reports": "对局中的举报活动。使用本地鼠标数据记录的举报会被确认并显示所选原因；仅来自录像的活动则通过启发式方法估算，显示为疑似举报且不提供原因。悬停单元格可查看完整时间线。"
   },
   "values": {
     "type": {
@@ -273,14 +273,18 @@
     "copiedToClipboard": "已复制到剪贴板！"
   },
   "reports": {
+    "suspectedTooltip": "根据录像活动通过启发式方法估算。系统可能漏掉举报或认错玩家，且无法确定举报原因。请谨慎看待。",
     "notification": {
-      "title": "你被举报了",
-      "body_other": "检测到{{count}}次游戏内举报。查看举报者和PP对比。",
-      "countLabel": "举报",
+      "title": "你被举报了！也许吧。",
+      "body_other": "发现{{count}}次疑似游戏内举报。查看可能的举报者和PP对比。",
+      "countLabel": "疑似",
       "ppAtReport": "举报时",
+      "ppAtSuspectedReport": "疑似举报时",
       "ppMatchEnd": "对局结束时",
       "ppCaption": "PP",
-      "ppCaptionTooltip": "对比举报者和你在举报当刻与对局结束时的PP表现。",
+      "ppCaptionTooltip": "对比举报者和你在举报时与对局结束时的PP表现。",
+      "ppSuspectedCaptionTooltip": "对比可能的举报者和你在疑似举报时与对局结束时的PP表现。",
+      "bottomLinePrefix": "也许：{{line}}",
       "bottomLines": {
         "reporterBehindBoth": [
           "垫底鱼苗的举报",
@@ -347,25 +351,30 @@
           "水晶球打出0/10"
         ]
       },
-      "openHint": "点击在资料与MMR中打开完整举报时间线。"
+      "openHint": "点击在资料与MMR中打开完整举报活动。"
     },
     "cell": {
-      "matchReportCount_other": "本场有{{count}}次游戏内举报"
+      "matchReportCount_other": "本场有{{count}}条举报活动"
     },
     "popover": {
-      "title": "举报时间线",
-      "subtitle": "本场比赛中提交的游戏内举报。"
+      "title": "举报活动",
+      "subtitle": "本场对局中已确认的本地举报和仅从录像估算的疑似举报。"
     },
     "summary": {
-      "reportedMe": "举报了你",
+      "possiblyReportedMe": "可能举报了你",
       "iReported": "你举报了",
-      "other": "其他举报"
+      "iMayHaveReported": "你可能举报了",
+      "other": "其他活动"
     },
     "columns": {
       "time": "时间",
       "reporter": "举报者",
       "target": "目标",
-      "reportTypes": "举报类型"
+      "activity": "状态/原因"
+    },
+    "status": {
+      "confirmed": "已确认",
+      "suspected": "疑似"
     },
     "types": {
       "toxicChat": "文字辱骂",
@@ -376,10 +385,13 @@
       "roleAbuse": "位置滥用"
     },
     "filters": {
-      "reportedMe": "我被举报",
+      "reportedMe": "我可能被举报",
       "iReportedAnyone": "我举报了别人",
       "iReportedAlly": "我举报了队友",
-      "iReportedEnemy": "我举报了敌人"
+      "iReportedEnemy": "我举报了敌人",
+      "iMayHaveReportedAnyone": "我可能举报了别人",
+      "iMayHaveReportedAlly": "我可能举报了队友",
+      "iMayHaveReportedEnemy": "我可能举报了敌人"
     }
   },
   "graph": {
