@@ -215,6 +215,7 @@
       "title": "你的结果是<1><0>{{resultColor}}</0></1>，因为你<4>{{resultExplanation}}</4>"
     },
     "needProcess": "需处理比赛数据才能查看",
+    "estimatedPp": "比赛处理完成前，PP 仅为估算值",
     "clickToCopy": "点击复制(格式化)",
     "ctrlClickToCopy": "按住CTRL+点击复制(单行)"
   },
