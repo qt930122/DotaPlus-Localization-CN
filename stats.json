@@ -159,6 +159,8 @@
     "roleGuess": "最可能的位置(对敌方为历史推测)",
     "positionGuess": "最可能的位置(基于当前比赛数据)",
     "playerNote": "你有该玩家的笔记。",
+    "reportedPlayer": "你以前举报过该玩家。",
+    "playerNoteAndReported": "你有该玩家的笔记，并且以前举报过该玩家。",
     "avoidedPlayer": "此玩家在你的避开列表中。",
     "avoidedPlayerWithNote": "已避开的玩家，且有笔记。"
   },

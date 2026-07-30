@@ -47,7 +47,7 @@
     "towerDamage": "对建筑伤害",
     "awards": "奖励",
     "processMatch": "处理状态：赛后解析对局以获取PP和RealStats。",
-    "reports": "对局中的举报活动。使用本地鼠标数据记录的举报会被确认并显示所选原因；仅来自录像的活动则通过启发式方法估算，显示为疑似举报且不提供原因。悬停单元格可查看完整时间线。"
+    "reports": "你在本场对局中发送的举报。悬停单元格可查看完整时间线。"
   },
   "values": {
     "type": {
@@ -274,108 +274,21 @@
     "copiedToClipboard": "已复制到剪贴板！"
   },
   "reports": {
-    "suspectedTooltip": "根据录像活动通过启发式方法估算。系统可能漏掉举报或认错玩家，且无法确定举报原因。请谨慎看待。",
     "notification": {
-      "title": "你被举报了！也许吧。",
-      "body_other": "发现{{count}}次疑似游戏内举报。查看可能的举报者和PP对比。",
-      "countLabel": "疑似",
       "ppAtReport": "举报时",
-      "ppAtSuspectedReport": "疑似举报时",
-      "ppMatchEnd": "对局结束时",
-      "ppCaption": "PP",
-      "ppCaptionTooltip": "对比举报者和你在举报时与对局结束时的PP表现。",
-      "ppSuspectedCaptionTooltip": "对比可能的举报者和你在疑似举报时与对局结束时的PP表现。",
-      "bottomLinePrefix": "也许：{{line}}",
-      "bottomLines": {
-        "reporterBehindBoth": [
-          "垫底鱼苗的举报",
-          "甩锅未遂",
-          "毫无作用的抱怨",
-          "菜还举报大哥",
-          "战绩稀烂还举报",
-          "嘴强王者，全场梦游",
-          "数据表明不关他们事",
-          "举报重拳出击，场上输出拉胯",
-          "事后复盘还你清白",
-          "比作用，你赢了"
-        ],
-        "reporterBehindThenAhead": [
-          "他们后来打脸了",
-          "后期实锤",
-          "前期破防，后期起飞",
-          "举报越来越真实有效",
-          "慢热开局，强势收尾",
-          "后期找到节奏了",
-          "举报后来拿到了实锤",
-          "前期劣势，后期领跑",
-          "事后复盘变得复杂",
-          "他们打出了翻盘举证局"
-        ],
-        "reporterAheadThenBehind": [
-          "举报后来成了笑柄",
-          "你用证据反杀了",
-          "他们的领先蒸发了",
-          "复盘证明你赢了",
-          "开场叫得欢，结局被打脸",
-          "战绩冤案被推翻",
-          "你洗清了嫌疑",
-          "他们的作用没稳住",
-          "后期证据对你有利",
-          "举报者输给了计分板"
-        ],
-        "reporterAheadBoth": [
-          "他们手握实锤",
-          "数据力挺他们",
-          "带影响力的举报",
-          "数据过硬，没得洗",
-          "举报者作用完爆你",
-          "作用鉴定：举报者占优",
-          "一边喷一边血C，数据还登顶",
-          "实锤一直锤在你身上",
-          "打得越狠，举报越有理",
-          "数据对你不利"
-        ],
-        "predictionGood": [
-          "预言家开局就点名",
-          "赛前判断越看越准",
-          "侦查报告被实锤",
-          "他们提前看完剧本",
-          "BP读秒命中要害",
-          "水晶球带了瞄准镜"
-        ],
-        "predictionBad": [
-          "赛前暴论成废墟",
-          "预言被打烂了",
-          "冷读开局，冰冷收场",
-          "他们举报了主角剧本",
-          "BP造谣已过期",
-          "水晶球打出0/10"
-        ]
-      },
-      "openHint": "点击在资料与MMR中打开完整举报活动。"
+      "ppMatchEnd": "对局结束时"
     },
     "cell": {
-      "matchReportCount_other": "本场有{{count}}条举报活动"
+      "matchReportCount_other": "本场发送了{{count}}次举报"
     },
     "popover": {
-      "title": "举报活动",
-      "subtitle": "本场对局中已确认的本地举报和仅从录像估算的疑似举报。"
-    },
-    "summary": {
-      "possiblyReportedMe": "可能举报了你",
-      "iReported": "你举报了",
-      "iMayHaveReported": "你可能举报了",
-      "other": "其他活动"
+      "title": "已发送的举报",
+      "subtitle": "你在本场对局中发送并通过鼠标输入记录的举报。"
     },
     "columns": {
       "time": "时间",
-      "reporter": "举报者",
       "target": "目标",
-      "activity": "状态/原因"
-    },
-    "status": {
-      "confirmed": "已确认",
-      "suspected": "疑似"
+      "activity": "原因"
     },
     "types": {
       "toxicChat": "文字辱骂",
@@ -386,13 +299,9 @@
       "roleAbuse": "位置滥用"
     },
     "filters": {
-      "reportedMe": "我可能被举报",
       "iReportedAnyone": "我举报了别人",
       "iReportedAlly": "我举报了队友",
-      "iReportedEnemy": "我举报了敌人",
-      "iMayHaveReportedAnyone": "我可能举报了别人",
-      "iMayHaveReportedAlly": "我可能举报了队友",
-      "iMayHaveReportedEnemy": "我可能举报了敌人"
+      "iReportedEnemy": "我举报了敌人"
     }
   },
   "graph": {
