@@ -47,7 +47,8 @@
     "towerDamage": "对建筑伤害",
     "awards": "奖励",
     "processMatch": "处理状态：赛后解析对局以获取PP和RealStats。",
-    "reports": "你在本场对局中发送的举报。悬停单元格可查看完整时间线。"
+    "reports": "你在本场对局中发送的举报。悬停单元格可查看完整时间线。",
+    "glyphs": "防御符文使用记录。悬停单元格可查看完整时间线。"
   },
   "values": {
     "type": {
@@ -302,6 +303,28 @@
       "iReportedAnyone": "我举报了别人",
       "iReportedAlly": "我举报了队友",
       "iReportedEnemy": "我举报了敌人"
+    }
+  },
+  "glyphs": {
+    "cell": {
+      "matchActivationCount_other": "本场使用了{{count}}次防御符文"
+    },
+    "popover": {
+      "title": "防御符文使用记录",
+      "disclaimer": "趣味性的录像估算——请勿太当真。",
+      "legend": "图例"
+    },
+    "filters": {
+      "myself": "自己",
+      "allies": "队友",
+      "enemies": "敌人"
+    },
+    "qualities": {
+      "justified": "合理",
+      "preemptive": "预防性",
+      "fatFingers": "手滑",
+      "questionable": "存疑",
+      "gryphed": "瞎符了"
     }
   },
   "graph": {
