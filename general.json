@@ -121,8 +121,16 @@
     "prevItem": "前一项",
     "nextItem": "后一项"
   },
-  "actions": {
-    "expand": "展开",
-    "collapse": "收起"
+  "ui": {
+    "cancel": "取消",
+    "close": "关闭",
+    "dialog": "对话框",
+    "nextPage": "下一页",
+    "nextPages": "后 5 页",
+    "noData": "暂无数据",
+    "notFound": "未找到结果",
+    "ok": "确定",
+    "previousPage": "上一页",
+    "previousPages": "前 5 页"
   }
 }
