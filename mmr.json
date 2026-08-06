@@ -294,37 +294,37 @@
     "types": {
       "toxicChat": "文字辱骂",
       "toxicVoice": "语音辱骂",
-      "smurfing": "炸鱼",
-      "griefing": "消极游戏",
-      "cheating": "作弊",
-      "roleAbuse": "位置滥用"
+      "smurfing": "小号捕鱼",
+      "griefing": "恶意破坏",
+      "cheating": "开挂作弊",
+      "roleAbuse": "乱选定位"
     },
     "filters": {
       "iReportedAnyone": "我举报了别人",
-      "iReportedAlly": "我举报了队友",
-      "iReportedEnemy": "我举报了敌人"
+      "iReportedAlly": "我举报了友方",
+      "iReportedEnemy": "我举报了敌方"
     }
   },
   "glyphs": {
     "cell": {
-      "matchActivationCount_other": "本场使用了{{count}}次防御符文"
+      "matchActivationCount_other": "本场使用了{{count}}次塔防"
     },
     "popover": {
-      "title": "防御符文使用记录",
-      "disclaimer": "趣味性的录像估算——请勿太当真。",
+      "title": "塔防使用记录",
+      "disclaimer": "录像回放估算——仅供参考。",
       "legend": "图例"
     },
     "filters": {
       "myself": "自己",
-      "allies": "队友",
-      "enemies": "敌人"
+      "allies": "友方",
+      "enemies": "敌方"
     },
     "qualities": {
       "justified": "合理",
       "preemptive": "预防性",
       "fatFingers": "手滑",
       "questionable": "存疑",
-      "gryphed": "瞎符了"
+      "gryphed": "乱按"
     }
   },
   "graph": {
